@@ -1,1 +1,37 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
+
+body {
+  background-color: #fffdf0;
+}
+
+input {
+  background-color: #e4ddf4;
+  border: 1px solid #000000;
+  border-radius: 0.3em;
+  width: 40%;
+  margin-top: 1%;
+}
+
+input:hover {
+  border: 2px solid #282612;
+}
+
+input:focus {
+  background-color: #e4ddf4;
+  border: 3px solid #282612;
+}
+
+ul {
+  margin-top: 1.5%;
+  list-style-type: "- ";
+  font-family: "Nunito Sans", sans-serif;
+  color: #282612;
+}
+
+#title {
+  color: #943d24;
+  text-shadow: -3px 1px #2d2d2d;
+  margin-top: 2%;
+  font-family: "Nunito Sans", sans-serif;
+}
