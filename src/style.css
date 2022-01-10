@@ -29,6 +29,14 @@ ul {
   color: #282612;
 }
 
+.delete {
+  margin-bottom: 10%;
+  background-color: #943d24;
+  border: 1px solid #2d2d2d;
+  border-radius: 30%;
+  color: #fffdf0;
+}
+
 #title {
   color: #943d24;
   text-shadow: -3px 1px #2d2d2d;
